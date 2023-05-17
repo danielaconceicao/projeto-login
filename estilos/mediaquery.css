@@ -7,6 +7,7 @@
     
     #login{
         width: 80vw;
+        height: 280px;
     }
 
     #login > #foto{
@@ -29,6 +30,7 @@
 
     #login{
         width: 900px;
+        height: 350px;
     }
 
     #login > #foto{
