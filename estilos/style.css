@@ -33,7 +33,7 @@ main{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
 
-    transition: width .3s, heigth .3s;
+    transition: width .2s, heigth .2s;
     transition-timing-function: ease;
 }
 
@@ -49,6 +49,17 @@ main{
     display: block;
     padding: 10px;
 }
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p{
+    font-size: 0.8em;
+}
+
+
 
 .material-symbols-outlined{
     background-color: blueviolet;
