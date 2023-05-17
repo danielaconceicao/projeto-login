@@ -19,7 +19,7 @@ main{
     width: 100vw;
 }
 
-#login{
+#login{ /*Configuração da div*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,17 +32,20 @@ main{
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
-#login > #foto{
+#login > #foto{ /*Configuração da imagem*/
     display: block;
     background: #5f2c82 url(../imagens/pexels-h-h-775876.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
-    height: 200px;
+    height: 200px;/*tamanho que vai ocupar a imagem na div*/
 }
 
-#login > #formulario{
+#login > #formulario{ /*Configuração do formulario*/
     display: block;
     padding: 10px;
 }
